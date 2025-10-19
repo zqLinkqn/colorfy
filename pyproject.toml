@@ -9,7 +9,7 @@ description = "Простая библиотека для цветного те�
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
-  { name = "zqLinkqn", email = "plip30392@gmail.com" }
+  { name = "zqLinkqn", email = "vvoid@example.com" }
 ]
 license = { text = "MIT" }
 dependencies = []
