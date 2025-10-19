@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "Простая библиотека для цветного текста в консоли"
 readme = "README.md"
 requires-python = ">=3.8"
-authors = [{name = "vvoid", email = "None"}]
+authors = [{name = "vvoid", email = "nbmexee@gmail.com"}]
 license = {text = "MIT"}
 
 [project.urls]
