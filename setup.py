@@ -8,7 +8,7 @@ setup(
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     author="vvoid",
-    author_email="plip30392@gmail.com",
+    author_email="zqlinkqn@example.com",
     url="https://github.com/zqLinkqn/colorfy",
     packages=find_packages(),
     python_requires=">=3.8",
