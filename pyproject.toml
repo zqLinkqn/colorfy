@@ -4,12 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "colorfy"
-version = "1.0.0"
+version = "0.2.0"
 description = "Простая библиотека для цветного текста в консоли"
 readme = "README.md"
 requires-python = ">=3.8"
-authors = [{name = "vvoid", email = "nbmexee@gmail.com"}]
-license = {text = "MIT"}
+authors = [
+  { name = "vvoid", email = "plip30392@gmail.com" }
+]
+license = { text = "MIT" }
+dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/zqLinkqn/colorfy"
