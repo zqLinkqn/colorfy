@@ -15,15 +15,13 @@ jobs:
         with:
           python-version: 3.11
 
-      - name: Upgrade pip and twine
+      - name: Upgrade tools
         run: |
-          python -m pip install --upgrade pip setuptools wheel twine
+          python -m pip install --upgrade pip
+          python -m pip install "setuptools<66" wheel twine
 
       - name: Build package
         run: python setup.py sdist bdist_wheel
-
-      - name: List built files
-        run: ls -la dist
 
       - name: Publish to PyPI
         env:
